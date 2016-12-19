@@ -2,12 +2,11 @@ package com.plugins.pdf.pdfium;
 
 /**
  * Created by claire young on 2/24/16.
+ * Modified by Menzo
  */
         import android.content.res.Resources;
         import android.net.Uri;
         import android.os.Bundle;
-//        import android.support.design.widget.TabLayout;
-//        import android.support.v7.app.AppCompatActivity;
 
         import android.app.Activity;
 
