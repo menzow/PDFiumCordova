@@ -1,0 +1,13 @@
+repositories{    
+  jcenter()  // for pdfium-android
+
+  flatDir {
+    dirs 'libs'	  // for android-pdf-viewer aar’s
+  }
+}
+
+dependencies {
+    debugCompile(name: 'android-pdf-viewer-debug', ext: 'aar')
+    releaseCompile(name: 'android-pdf-viewer-release', ext: 'aar')
+    compile 'com.github.barteksc:pdfium-android:1.1.0'
+}
